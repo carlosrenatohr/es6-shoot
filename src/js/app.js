@@ -1,5 +1,6 @@
 // import * as imported from './MyClass';
-import def, {yourChild, herChild, Child} from './MyClass';
+import def, {yourChild, herChild, Child} from './MyClass'
+import {executeReflect} from './ReflectTest'
 
 let main = () => {
 	let obj = Child.getCedula();
@@ -64,3 +65,4 @@ Promise.race([promise1, promise2])
 
 
 main();
+executeReflect();
